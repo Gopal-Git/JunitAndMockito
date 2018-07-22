@@ -1,0 +1,24 @@
+Junit is a testing framwork.
+We test units of our application, classes and methods are the individual units of our application.
+In TDD approach we write the test cases first, and test which fails then we write our module and then test case will pass.
+For which methods we write test case?
+Required Jars
+Way to write a test case
+Exception in test case
+Test suite
+Runner differnent annotations
+Paramerized.Runner	
+Mavne build (How maven knows where are test cases)
+TestNameConventions
+Build 
+
+___________________________________________________________________________
+
+Mockito
+Mock object
+Inject object
+Add behaviour
+verify behaviour
+no of expect calls
+Inorder 
+Spy and partial mocking
