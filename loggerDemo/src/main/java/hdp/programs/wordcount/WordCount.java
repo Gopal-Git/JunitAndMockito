@@ -16,10 +16,11 @@ import hdp.programs.wordcount.reducer.WordCountReducer;
 public class WordCount {
 	public static void main(String[] args) {
 		
-		if (args.length != 2) {
-			System.out.println("Invalid arguments ");
-			System.out.println("Provide input output file paths");
-		}
+                if (args.length != 2) {
+                        System.err.println("Invalid arguments");
+                        System.err.println("Provide input and output file paths");
+                        return;
+                }
 		Configuration config = new Configuration();
 		try {
 			Job job = new Job(config, "WordCountJob");
